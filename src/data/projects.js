@@ -2,12 +2,12 @@
 // import GmIllustrator from '../assets/img/gm-illustrator.webp'
 // import BkUbs from '../assets/img/bk-ubs.webp'
 
-import PodologicalCenter from '../assets/img/podological-center.png'
-import JobSeeker from '../assets/img/JobSeeker.png'
-import HayBoss from '../assets/img/HeyBoss.png'
-import ReactPizza from '../assets/img/react-pizza.png'
-import SneakerStore from '../assets/img/sneakers-store.png'
-import RsHealthy from '../assets/img/rs-healthy.png'
+import PodologicalCenter from '../assets/img/podological-center.webp'
+import JobSeeker from '../assets/img/JobSeeker.webp'
+import HayBoss from '../assets/img/HeyBoss.webp'
+import ReactPizza from '../assets/img/react-pizza.webp'
+import SneakerStore from '../assets/img/sneakers-store.webp'
+import RsHealthy from '../assets/img/rs-healthy.webp'
 
 const projects = [
   // {

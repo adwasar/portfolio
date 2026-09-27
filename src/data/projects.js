@@ -1,3 +1,7 @@
+// import Memoryos from '../assets/img/memoryos.webp'
+// import GmIllustrator from '../assets/img/gm-illustrator.webp'
+// import BkUbs from '../assets/img/bk-ubs.webp'
+
 import PodologicalCenter from '../assets/img/podological-center.png'
 import JobSeeker from '../assets/img/JobSeeker.png'
 import HayBoss from '../assets/img/HeyBoss.png'
@@ -6,6 +10,37 @@ import SneakerStore from '../assets/img/sneakers-store.png'
 import RsHealthy from '../assets/img/rs-healthy.png'
 
 const projects = [
+  // {
+  //   imgSrc: Memoryos,
+  //   demoUrl: 'https://memoryos.com/games',
+  //   repoUrl: '',
+  //   title: 'TITLE',
+  //   description: 'description',
+  //   functional: 'functional',
+  //   tools:
+  //     'tools',
+  // },
+  // {
+  //   imgSrc: GmIllustrator,
+  //   demoUrl: 'https://genius.space/illustrator',
+  //   repoUrl: '',
+  //   title: 'TITLE',
+  //   description: 'description',
+  //   functional: 'functional',
+  //   tools:
+  //     'tools',
+  // },
+  // {
+  //   imgSrc: BkUbs,
+  //   demoUrl: 'https://ubs.holders.club',
+  //   repoUrl: '',
+  //   title: 'TITLE',
+  //   description: 'description',
+  //   functional: 'functional',
+  //   tools:
+  //     'tools',
+  // },
+  
   {
     imgSrc: PodologicalCenter,
     demoUrl: 'https://podological-center.netlify.app/',

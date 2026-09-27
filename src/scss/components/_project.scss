@@ -34,7 +34,8 @@ $img-size-sm: 190px;
   }
 
   img {
-    transition: transform 15s linear;
+    transition-property: transform;
+    transition-timing-function: linear;
     width: 100%;
   }
 

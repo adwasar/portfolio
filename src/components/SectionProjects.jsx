@@ -1,6 +1,22 @@
+import { useEffect } from 'react';
 import projects from '../data/projects';
 
+const SCROLL_SPEED = 100; // px per second
+
+function setScrollDuration(img) {
+  const container = img.closest('.project__img');
+  const distance = Math.max(img.offsetHeight - container.clientHeight, 0);
+  img.style.transitionDuration = `${distance / SCROLL_SPEED}s`;
+}
+
 function SectionProjects() {
+  useEffect(() => {
+    const updateAll = () =>
+      document.querySelectorAll('.project__img img').forEach(setScrollDuration);
+    window.addEventListener('resize', updateAll);
+    return () => window.removeEventListener('resize', updateAll);
+  }, []);
+
   return (
     <>
       <section id="projects" className="min-vh-100 d-flex align-items-center">
@@ -16,7 +32,9 @@ function SectionProjects() {
                     i % 2 ? '' : 'order-md-0'
                   } order-1`}>
                   <a href={project.demoUrl} target="_blank">
-                    <img src={project.imgSrc}></img>
+                    <img
+                      src={project.imgSrc}
+                      onLoad={(e) => setScrollDuration(e.currentTarget)}></img>
                   </a>
                 </div>
                 <div className="text-start col-12 col-md-7 px-0 px-md-5 mt-4 mt-sm-5 mt-md-0">

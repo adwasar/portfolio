@@ -18,7 +18,7 @@ const projects = [
     description: 'Blog for a web studio',
     functional: 'Blog content management via a custom admin panel',
     tools:
-      'WordPress, ACF Pro, Yoast seo, PHP, JavaScript, gulp, swiper, SCSS',
+      'WordPress, ACF Pro, Yoast seo, Polylang, PHP, JavaScript, gulp, swiper, SCSS',
   },
   {
     imgSrc: Memoryos,

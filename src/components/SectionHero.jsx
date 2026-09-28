@@ -10,8 +10,7 @@ function SectionHero() {
             <div className="col-12 col-md-7 mt-5 mt-md-0">
               <h1 className="display-2">Frontend Developer</h1>
               <p>
-                Hi, I'm Vladislav Bryl. A passionate Front-end React Developer based in Kharkiv,
-                Ukrain.
+                Hi, I'm Vladislav Bryl. A passionate Frontend React Developer with focus on WordPress
               </p>
               <h2>Tech Stack</h2>
               <ul>

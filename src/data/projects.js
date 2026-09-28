@@ -1,7 +1,7 @@
-// import Memoryos from '../assets/img/memoryos.webp'
-// import GmIllustrator from '../assets/img/gm-illustrator.webp'
-// import BkUbs from '../assets/img/bk-ubs.webp'
-
+import AvisBlog from '../assets/img/avis-blog.webp'
+import Memoryos from '../assets/img/memoryos.webp'
+import GmIllustrator from '../assets/img/gm-illustrator.webp'
+import BkUbs from '../assets/img/bk-ubs.webp'
 import PodologicalCenter from '../assets/img/podological-center.webp'
 import JobSeeker from '../assets/img/JobSeeker.webp'
 import HayBoss from '../assets/img/HeyBoss.webp'
@@ -10,37 +10,46 @@ import SneakerStore from '../assets/img/sneakers-store.webp'
 import RsHealthy from '../assets/img/rs-healthy.webp'
 
 const projects = [
-  // {
-  //   imgSrc: Memoryos,
-  //   demoUrl: 'https://memoryos.com/games',
-  //   repoUrl: '',
-  //   title: 'TITLE',
-  //   description: 'description',
-  //   functional: 'functional',
-  //   tools:
-  //     'tools',
-  // },
-  // {
-  //   imgSrc: GmIllustrator,
-  //   demoUrl: 'https://genius.space/illustrator',
-  //   repoUrl: '',
-  //   title: 'TITLE',
-  //   description: 'description',
-  //   functional: 'functional',
-  //   tools:
-  //     'tools',
-  // },
-  // {
-  //   imgSrc: BkUbs,
-  //   demoUrl: 'https://ubs.holders.club',
-  //   repoUrl: '',
-  //   title: 'TITLE',
-  //   description: 'description',
-  //   functional: 'functional',
-  //   tools:
-  //     'tools',
-  // },
-  
+  {
+    imgSrc: AvisBlog,
+    demoUrl: 'https://avis-studio.com/blog/',
+    repoUrl: '',
+    title: 'Avis Digital Studio',
+    description: 'Blog for a web studio',
+    functional: 'Blog content management via a custom admin panel',
+    tools:
+      'WordPress, ACF Pro, Yoast seo, PHP, JavaScript, gulp, swiper, SCSS',
+  },
+  {
+    imgSrc: Memoryos,
+    demoUrl: 'https://memoryos.com/games',
+    repoUrl: '',
+    title: 'memoryOS',
+    description: 'Memory training app',
+    functional: 'Built memory training games and saving of user results to a database, content management via a custom admin panel',
+    tools:
+      'WordPress, ACF Pro, Yoast seo, PHP, JavaScript, gulp, swiper, SCSS',
+  },
+  {
+    imgSrc: GmIllustrator,
+    demoUrl: 'https://genius.space/illustrator',
+    repoUrl: '',
+    title: 'Genius Space Illustrator',
+    description: 'Landing page',
+    functional: 'Form integration with CRM and Google Sheets',
+    tools:
+      'JavaScript, PHP, gulp, swiper, SCSS',
+  },
+  {
+    imgSrc: BkUbs,
+    demoUrl: 'https://ubs.holders.club',
+    repoUrl: '',
+    title: 'Бізнес Конструктор UBS',
+    description: 'Landing page',
+    functional: 'Form integration with CRM and Google Sheets',
+    tools:
+      'JavaScript, PHP, gulp, swiper, SCSS',
+  },
   {
     imgSrc: PodologicalCenter,
     demoUrl: 'https://podological-center.netlify.app/',
